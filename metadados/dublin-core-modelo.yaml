@@ -1,0 +1,29 @@
+# Ficha de metadados baseada no Dublin Core (15 elementos)
+# mais campos de governança. Campos marcados como obrigatório
+# são conferidos por scripts/validar_metadados.py.
+
+# --- Dublin Core ---
+titulo: ""            # obrigatório. Nome claro do conjunto de dados
+criador: []           # obrigatório. Pessoas ou grupos responsáveis, com ORCID se houver
+assunto: []           # obrigatório. Palavras-chave (use vocabulário controlado quando possível)
+descricao: ""         # obrigatório. O que foi coletado, onde, como e para quê
+editor: ""            # instituição que disponibiliza o dado
+colaborador: []       # outras pessoas que contribuíram
+data: ""              # obrigatório. Data de criação ou coleta, formato AAAA-MM-DD
+tipo: ""              # obrigatório. Ex.: Dataset, Imagem, Software
+formato: []           # obrigatório. Ex.: text/csv, application/x-netcdf
+identificador: ""     # DOI, handle ou caminho persistente
+fonte: ""             # de onde o dado foi derivado, se aplicável
+idioma: "pt-BR"
+relacao: []           # artigos, projetos ou outros conjuntos relacionados
+cobertura: ""         # área geográfica e período cobertos
+direitos: ""          # obrigatório. Licença ou condição de uso
+
+# --- Governança ---
+classificacao: ""     # obrigatório. publico | interno | restrito | confidencial
+responsavel: ""       # obrigatório. Pessoa que responde pelo dado (curador)
+contem_dado_pessoal: false
+base_legal_lgpd: ""   # obrigatório se contem_dado_pessoal for true
+local_armazenamento: ""
+dicionario_de_dados: ""  # caminho para o dicionário (ver dicionario/)
+revisao_em: ""        # próxima revisão de classificação e acessos, AAAA-MM-DD

@@ -1,0 +1,10 @@
+coluna,descricao,tipo,unidade,obrigatoria,valores_aceitos,exemplo,observacao
+ponto_coleta,Código do ponto de coleta,texto,,sim,P01 a P12,P03,Ver mapa de pontos no relatório de campo
+data_coleta,Data da medição,data,AAAA-MM-DD,sim,,2025-03-14,
+latitude,Latitude do ponto,decimal,graus (WGS84),sim,-90 a 90,-1.4558,Arredondar a 4 casas se a espécie ou o local for sensível
+longitude,Longitude do ponto,decimal,graus (WGS84),sim,-180 a 180,-48.4902,
+ph,Potencial hidrogeniônico,decimal,,sim,0 a 14,6.8,
+oxigenio_dissolvido,Oxigênio dissolvido na água,decimal,mg/L,sim,>= 0,7.2,
+turbidez,Turbidez,decimal,NTU,nao,>= 0,35.0,Vazio quando a sonda falhou
+temperatura,Temperatura da água,decimal,°C,sim,,29.4,
+responsavel_coleta,Iniciais de quem coletou,texto,,nao,,TD,Nunca registrar nome completo nem CPF

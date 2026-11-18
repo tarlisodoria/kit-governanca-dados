@@ -1,0 +1,32 @@
+# Exemplo fictício, apenas para ilustrar o preenchimento.
+titulo: "Qualidade da água em pontos de coleta de um rio amazônico, 2025"
+criador:
+  - "Equipe de Hidrologia (exemplo)"
+assunto:
+  - qualidade da água
+  - oxigênio dissolvido
+  - turbidez
+  - Amazônia
+descricao: >
+  Medições mensais de pH, oxigênio dissolvido, turbidez e temperatura
+  em 12 pontos de coleta ao longo de um rio, feitas com sonda
+  multiparâmetro entre janeiro e dezembro de 2025.
+editor: "Instituição exemplo"
+colaborador: []
+data: "2025-12-31"
+tipo: "Dataset"
+formato:
+  - text/csv
+identificador: ""
+fonte: ""
+idioma: "pt-BR"
+relacao: []
+cobertura: "Bacia hidrográfica exemplo, jan/2025 a dez/2025"
+direitos: "CC BY 4.0"
+classificacao: "publico"
+responsavel: "Curador de dados (exemplo)"
+contem_dado_pessoal: false
+base_legal_lgpd: ""
+local_armazenamento: "repositorio-institucional/hidrologia/2025"
+dicionario_de_dados: "dicionario/dicionario-de-dados-modelo.csv"
+revisao_em: "2026-12-31"
